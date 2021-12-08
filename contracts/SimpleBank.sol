@@ -23,8 +23,9 @@ contract SimpleBank {
 
     // Let's make sure everyone knows who owns the bank, yes, fill in the
     // appropriate visilibility keyword
+
     address public owner = msg.sender;
-    
+
     /* Events - publicize actions to external listeners
      */
 
